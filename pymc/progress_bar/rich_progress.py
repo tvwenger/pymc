@@ -310,6 +310,7 @@ class RichProgressBackend:
             sampling_speed=speed,
             speed_unit=unit,
             failing=failing,
+            refresh=True,
             **stats,
         )
 
